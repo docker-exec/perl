@@ -1,4 +1,3 @@
-for @*ARGS -> $arg
-{
-    printf("%s\n", $arg);
+foreach my $arg (@ARGV){
+    print $arg, "\n";
 }
